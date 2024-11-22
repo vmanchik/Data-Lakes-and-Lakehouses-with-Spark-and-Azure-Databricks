@@ -19,3 +19,5 @@ As part of Udacity's course on Data Lakes and Lakehouses with Spark and Azure Da
 ## Data
 
 The City of Chicago makes anonymized bike trip data publicly available for projects, which we used in this project as part of the course assignment. Below is more information on the sources:
+
+![Relational ERD](./diagram.png)
