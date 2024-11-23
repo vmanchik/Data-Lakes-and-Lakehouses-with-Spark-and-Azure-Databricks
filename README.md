@@ -1,8 +1,8 @@
 # Data Lakehouse for Divvy Bikeshare with Spark and Azure Databricks
 
-Divvy is a bikeshare service in Chicago. It provides an easy and affordable way to explore the city by renting classic bikes, e-bikes, or scooters via an app. The company offers unlimited 45-minute rides on classic bikes and premium Lyft Pink membership as well as several other ways to enjoy riding bikes and exploring the city. More information can be found on their [website](https://divvybikes.com).
+Divvy is a bikeshare service in Chicago. It provides an easy and affordable way to explore the city by renting classic bikes, e-bikes, or scooters via an app. The company offers unlimited 45-minute rides on classic bikes and premium Lyft Pink membership. More information can be found on their [website](https://divvybikes.com).
 
-As part of Udacity's course on Data Lakes and Lakehouses with Spark and Azure Databricks, we developed a data lakehouse solution for Divvy by setting up an ELT pipeline to extract, load, and transform Divvy's data in order to provide information on the business outcomes critical for the business.
+As part of Udacity's course on Data Lakes and Lakehouses with Spark and Azure Databricks, we developed a data lakehouse solution for Divvy by setting up an ELT pipeline to extract, load, and transform Divvy's data.
 
 ## The business outcomes:
 1. Analyze how much time is spent per ride:
@@ -16,8 +16,8 @@ As part of Udacity's course on Data Lakes and Lakehouses with Spark and Azure Da
    - Per member, based on how many rides the rider averages per month.
    - Per member, based on how many minutes the rider spends on a bike per month.
 
-## Data
+## Raw Data
 
-The City of Chicago makes anonymized bike trip data publicly available for projects, which we used in this project as part of the course assignment. Below is more information on raw dataset:
+The City of Chicago makes anonymized bike trip data publicly available for projects, which we used in this project as part of the course assignment. Below is more information on the raw dataset:
 
 ![Relational ERD](ERD_diagram.png)
