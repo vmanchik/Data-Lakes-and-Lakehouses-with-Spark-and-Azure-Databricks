@@ -30,4 +30,6 @@ The City of Chicago makes anonymized bike trip data publicly available for proje
 
 ## Star Schema Design
 
+The diagram below represents a dimensional model specifically disigned to answer questions related to Divvy's business outcomes.
+
 ![The Dimensional model](dimensional_model.png)
