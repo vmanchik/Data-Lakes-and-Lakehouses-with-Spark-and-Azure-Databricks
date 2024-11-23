@@ -23,9 +23,9 @@ The City of Chicago makes anonymized bike trip data publicly available for proje
 ![Relational ERD](ERD_diagram.png)
 
 ## Project Steps
-1. Develop a dimentional model
-2. Sndest raw data into Azue Databricks DBFS
-3. Extract Divvy's raw data from csv files into the delta table storage format with appropriate data schema for each table
+1. Develop a dimensional model
+2. Send raw data into Azure Databricks DBFS
+3. Extract Divvy's raw data from CSV files into the delta table storage format with appropriate data schema for each table
 4. Transform the data into the star schema data model using Spark and Spark-SQL
 
 ## Star Schema Design
