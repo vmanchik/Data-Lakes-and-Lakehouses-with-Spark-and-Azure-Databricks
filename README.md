@@ -24,7 +24,7 @@ The City of Chicago makes anonymized bike trip data publicly available for proje
 
 ## Project Steps
 1. Develop a dimensional model
-2. Send raw data into Azure Databricks DBFS
+2. Ingest raw data into Azure Databricks DBFS
 3. Extract Divvy's raw data from CSV files into the delta table storage format with appropriate data schema for each table
 4. Transform the data into the star schema data model using Spark and Spark-SQL
 
