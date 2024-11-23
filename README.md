@@ -21,3 +21,13 @@ As part of Udacity's course on Data Lakes and Lakehouses with Spark and Azure Da
 The City of Chicago makes anonymized bike trip data publicly available for projects, which we used in this project as part of the course assignment. Below is more information on the raw dataset:
 
 ![Relational ERD](ERD_diagram.png)
+
+## Project Steps
+1. Develop a dimentional model
+2. Sndest raw data into Azue Databricks DBFS
+3. Extract Divvy's raw data from csv files into the delta table storage format with appropriate data schema for each table
+4. Transform the data into the star schema data model using Spark and Spark-SQL
+
+## Star Schema Design
+
+![The Dimensional model](dimensional_model.png)
