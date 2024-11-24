@@ -1,6 +1,6 @@
 # Data Lakehouse for Divvy Bikeshare with Spark and Azure Databricks
 
-Divvy is a bikeshare service in Chicago. It provides an easy and affordable way to explore the city by renting classic bikes, e-bikes, or scooters via an app. The company offers unlimited 45-minute rides on classic bikes and premium Lyft Pink membership. More information can be found on their [website](https://divvybikes.com).
+Divvy is a bikeshare service in Chicago. It provides an easy and affordable way to explore the city by renting classic bikes, e-bikes, or scooters via an app. The company offers unlimited 45-minute rides on classic bikes and premium Lyft Pink membership as well as several other programs. More information can be found on their [website](https://divvybikes.com).
 
 As part of Udacity's course on Data Lakes and Lakehouses with Spark and Azure Databricks, we developed a data lakehouse solution for Divvy by setting up an ELT pipeline to extract, load, and transform Divvy's data.
 
@@ -33,3 +33,5 @@ The City of Chicago makes anonymized bike trip data publicly available for proje
 The diagram below represents a dimensional model specifically disigned to answer questions related to Divvy's business outcomes.
 
 ![The Dimensional model](dimensional_model.png)
+
+Please see python code for more details on on how the project steps were implemented. 
